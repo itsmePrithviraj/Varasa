@@ -143,3 +143,8 @@ Owner supplied original screenshots and rejected the generic layout of the rebui
 - Updated collaboration guide and CI triggers. Flutter checks now run on macOS/Windows; isolated Node22/Java21 backend checks run on Ubuntu. Hosted results are pending publication.
 
 - Created initial local commit `803a23a` on `main`: 247 files, restored app/backend/assets/docs and CI. Staged whitespace check passed. No historical source, APK, local SDK/config, key or dependency cache was committed. GitHub publication is waiting for owner device authentication.
+
+## 11 October 2026 — GitHub publication
+- Owner created https://github.com/itsmePrithviraj/Varasa and explicitly requested connection/push plus a step-by-step explanation. Verified authenticated account itsmePrithviraj and empty remote before making changes.
+- Added origin, configured GitHub CLI HTTPS credentials and successfully pushed main with upstream tracking. GitHub confirms repository is public and default branch is main. Original varasaapp and build artifacts are absent from tracked files.
+- First GitHub Actions validation started. Added docs/GIT_GUIDE.md explaining staging, committing, remotes, push/pull, branches and pull requests, plus teammate setup. No collaborator invitations or branch protection changes were made.

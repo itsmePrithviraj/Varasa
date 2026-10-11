@@ -12,4 +12,4 @@ Updated 11 October 2026. See VALIDATION.md for checks actually run.
 - **Release:** prototype bundle IDs remain. Android release requires private signing configuration and refuses missing keys. No store publication has occurred.
 - **Content/assets:** original student-project descriptions and raster artwork are retained. Cultural facts/regional variants and image rights need editorial/owner review. Added fonts include OFL licenses.
 - **Dependencies:** Flutter 3.35.1 with compatible retained plugin majors. Web is JavaScript, not Wasm. Native desktop release targets are not included.
-- **Git/team setup:** initial GitHub publication is in progress; check CONTINUE_HERE.md for commit/remote status. CI is configured but hosted execution must be verified. Teammates need the pinned SDK and their own ignored local configuration.
+- **Git/team setup:** published at https://github.com/itsmePrithviraj/Varasa. Hosted CI, collaborator invitations and main protection are separate setup steps; check CONTINUE_HERE.md. Teammates need the pinned SDK and their own ignored local configuration.

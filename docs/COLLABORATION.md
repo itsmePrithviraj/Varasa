@@ -6,9 +6,16 @@ The shared unit is one Git repository rooted at `Varasa`, not a zip of somebody'
 
 The repository root is `Varasa`; the current app is `apps/varasa`. The top-level `varasaapp/` is a preserved historical copy, ignored by Git and excluded from GitHub. Do not force-add it or copy it into the new app. Fresh clones will not contain that historical folder.
 
-The owner selected a new **public** GitHub repository named **Varasa** on 11 October 2026. GitHub authentication and the publication result are recorded in CONTINUE_HERE.md. GitHub CLI authentication happens on your own computer; never paste passwords or access tokens into chat.
+The owner selected a new **public** GitHub repository named **Varasa** on 11 October 2026. Published repository: **https://github.com/itsmePrithviraj/Varasa**. Local `main` tracks `origin/main`. GitHub authentication uses the owner’s CLI keyring. GitHub CLI authentication happens on your own computer; never paste passwords or access tokens into chat.
 
-When setting up a different machine, sign in using `gh auth login --hostname github.com --git-protocol https --web`, then clone the repository URL. Invite the other three teammates through the repository's collaborator settings. Each member uses their own clone and credentials.
+When setting up a different machine, clone the repository. Public cloning needs no GitHub login; pushing requires collaborator access and authentication:
+
+```sh
+git clone https://github.com/itsmePrithviraj/Varasa.git
+cd Varasa
+```
+
+For pushing from a new machine, sign in using `gh auth login --hostname github.com --git-protocol https --web` (if using GitHub CLI). Invite the other three teammates through the repository's collaborator settings. Each member uses their own clone and credentials.
 
 Before committing, use `git status --short` and `git diff --cached --stat`. Keep local config, SDK paths, caches, signing keys, APKs and the original folder out of the staged files. Repository ignore rules already cover these paths.
 

@@ -26,7 +26,7 @@ All 10 backend emulator cases passed. Final JavaScript web and Android debug APK
 - Testing was authorized on 10 October. Local demo/emulator checks allowed; no remote deployment or legacy data migration performed/authorized.
 - Keep logs/tasks updated after meaningful work and before stopping.
 - Flutter 3.35.1/Dart 3.9.0, Node 22, Java 21. Do not upgrade incidentally.
-- GitHub setup started on 11 October: owner chose a new public repository named Varasa. Initial source commit `803a23a` is complete; GitHub CLI is installed and device authentication is pending. No GitHub repository/remote or push has happened yet. Verify `git log -1`, `git remote -v` and `gh auth status` before continuing. Do not edit/delete historical projects.
+- GitHub setup started on 11 October: owner chose a new public repository named Varasa. Initial source commit `803a23a` and checkpoint `9ab694f` have been pushed. Public remote: https://github.com/itsmePrithviraj/Varasa.git. Local main tracks origin/main; GitHub CLI is authenticated. Verify `git log -1`, `git remote -v` and `gh auth status` before continuing. Do not edit/delete historical projects.
 
 ## Resume sequence
 
@@ -36,4 +36,4 @@ This Mac's Flutter executable is `/Users/prithvirajgokule/Development/flutter/bi
 
 ## GitHub setup checkpoint
 
-Current task is publishing the committed restored baseline to the owner’s new public Varasa repository. The top-level `varasaapp/` is intentionally ignored and stays local. Active app is `apps/varasa`. Git ignores build/cache/config/signing files, IDE modules and the redundant original font ZIP. CI now checks Flutter on macOS/Windows and the isolated backend on Ubuntu for main pushes and pull requests. Hosted checks have not run yet. Contributor workflow: docs/COLLABORATION.md.
+The restored baseline has been published to https://github.com/itsmePrithviraj/Varasa. The top-level `varasaapp/` is intentionally ignored and stays local. Active app is `apps/varasa`. Git ignores build/cache/config/signing files, IDE modules and the redundant original font ZIP. CI now checks Flutter on macOS/Windows and the isolated backend on Ubuntu for main pushes and pull requests. The first hosted validation run has started; inspect GitHub Actions for its result. Contributor workflow: docs/COLLABORATION.md.

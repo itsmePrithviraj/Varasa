@@ -4,7 +4,7 @@ Share living traditions, explore cultural stories, and rediscover folk games. Th
 
 **The active app is `apps/varasa`.** Historical copies—including `varasaapp/`—are preserved and excluded from this repository.
 
-[Run and explore](docs/SETUP.md) · [Task board](TASKS.md) · [Resume work](CONTINUE_HERE.md) · [Progress log](docs/WORK_LOG.md) · [Team Git workflow](docs/COLLABORATION.md) · [Validation results](docs/VALIDATION.md)
+[Run and explore](docs/SETUP.md) · [Task board](TASKS.md) · [Resume work](CONTINUE_HERE.md) · [Progress log](docs/WORK_LOG.md) · [Git basics](docs/GIT_GUIDE.md) · [Team workflow](docs/COLLABORATION.md) · [Validation results](docs/VALIDATION.md)
 
 ## Original UI restoration
 
