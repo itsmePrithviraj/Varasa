@@ -46,3 +46,9 @@ Plain `flutter test` runs behavior checks without writing captures or requiring 
 Live map tiles, physical Android, native share/file dialogs, keyboard/TalkBack, connected OAuth/App Check, clean Windows setup and iOS have not been validated in this pass. Demo login is intentionally a local entry rather than real authentication. Unity runtime is absent by owner direction.
 
 Retained plugins do not support Wasm. The pinned SDK's normal JavaScript build succeeds with Wasm dry-run warnings. A `--no-wasm-dry-run` attempt failed because this SDK still constructed a Wasm target with dryRun disabled; use the successful plain build command above. No SDK/plugin upgrade was made to silence these warnings.
+
+## First GitHub Actions run
+
+[https://github.com/itsmePrithviraj/Varasa/actions/runs/38118038320](https://github.com/itsmePrithviraj/Varasa/actions/runs/38118038320) completed successfully on 11 October 2026 for source commit `9ab694f` (same application source as the initial baseline). macOS and Windows passed pinned Flutter dependency resolution, format checks, analysis, tests and demo web builds. Ubuntu passed the isolated backend emulator suite under Node22/Java21. Later Git-guide/checkpoint commits changed documentation only and skipped duplicate CI.
+
+This establishes hosted Mac/Windows web validation; it does not establish Android/iOS device behavior or manual developer-machine onboarding. The runner reported non-failing action-runtime/version deprecation warnings; update those action majors in a separate verified maintenance change.

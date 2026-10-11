@@ -148,3 +148,7 @@ Owner supplied original screenshots and rejected the generic layout of the rebui
 - Owner created https://github.com/itsmePrithviraj/Varasa and explicitly requested connection/push plus a step-by-step explanation. Verified authenticated account itsmePrithviraj and empty remote before making changes.
 - Added origin, configured GitHub CLI HTTPS credentials and successfully pushed main with upstream tracking. GitHub confirms repository is public and default branch is main. Original varasaapp and build artifacts are absent from tracked files.
 - First GitHub Actions validation started. Added docs/GIT_GUIDE.md explaining staging, committing, remotes, push/pull, branches and pull requests, plus teammate setup. No collaborator invitations or branch protection changes were made.
+
+- Verified GitHub tree: 248 tracked files, current `apps/varasa/lib/main.dart` present, historical `varasaapp` absent. Local and remote main matched after the Git-guide push.
+- First hosted validation completed **successfully** in all three jobs: Windows Flutter, macOS Flutter and Ubuntu backend. Evidence: https://github.com/itsmePrithviraj/Varasa/actions/runs/38118038320. Recorded exact scope in VALIDATION.md; physical native behavior remains separate.
+- GitHub setup/push is complete. Team invitations and branch protection are documented owner follow-up; no unrelated app/UI changes were made in this Git setup task.
