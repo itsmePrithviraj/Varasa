@@ -1,0 +1,12 @@
+# Varasa workspace
+- Canonical Flutter application: `apps/varasa`. Do not edit the historical `varasaapp/` directory.
+- Read `CONTINUE_HERE.md`, `TASKS.md`, `docs/WORK_LOG.md` and `docs/ARCHITECTURE.md` before changing architecture.
+- Mark each meaningful task in progress before editing; update WORK_LOG and the continuation checkpoint after completion or before stopping.
+- Preserve Varasa's supplied artwork, warm heritage palette, and cultural/social/game vision.
+- Pin Flutter 3.35.1; coordinate SDK and dependency upgrades in a dedicated change.
+- Put feature UI in `lib/features`, data access in `lib/data`, contracts in `lib/domain`.
+- Never access Firebase from feature widgets. Keep demo behavior behind the same repository contract.
+- Never add secrets, local SDK paths, build outputs or Unity Library caches to Git.
+- Owner explicitly authorized testing on 10 October 2026. Run local analysis, tests, builds and isolated demo-project emulators as needed. Do not deploy or migrate remote data without authorization.
+- Document unfinished integrations honestly; do not make a button imply functionality that is absent.
+- Update WORK_LOG, KNOWN_ISSUES and the manual checklist for changes to behavior or configuration.

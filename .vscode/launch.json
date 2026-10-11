@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Varasa · Local demo", "request": "launch", "type": "dart", "cwd": "apps/varasa", "program": "lib/main.dart", "args": ["--dart-define=APP_MODE=demo"]},
+    {"name": "Varasa · Firebase", "request": "launch", "type": "dart", "cwd": "apps/varasa", "program": "lib/main.dart", "args": ["--dart-define-from-file=config.local.json"]}
+  ]
+}

@@ -1,0 +1,49 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function active(uid) {
+      return exists(/databases/$(database)/documents/profiles/$(uid))
+        && get(/databases/$(database)/documents/profiles/$(uid)).data.suspended == false
+        && exists(/databases/$(database)/documents/accounts/$(uid))
+        && get(/databases/$(database)/documents/accounts/$(uid)).data.deleting == false;
+    }
+    function unblocked(uid) {
+      return request.auth.uid == uid ||
+        (!exists(/databases/$(database)/documents/accounts/$(request.auth.uid)/blocks/$(uid))
+        && !exists(/databases/$(database)/documents/accounts/$(uid)/blocks/$(request.auth.uid)));
+    }
+    function visible(uid) { return signedIn() && active(request.auth.uid) && active(uid) && unblocked(uid); }
+    match /profiles/{uid} {
+      allow get: if signedIn() && (request.auth.uid == uid || visible(uid));
+      allow list, write: if false;
+      match /{relationship}/{other} {
+        allow get: if signedIn() && request.auth.uid == uid && active(uid)
+          && relationship in ['following','followers','friends','incoming','outgoing'];
+        allow list, write: if false;
+      }
+    }
+    match /stories/{postId} {
+      // An author can observe their own tombstone; its content is cleared by the server.
+      allow get: if visible(resource.data.userId);
+      allow list, write: if false;
+      match /likes/{uid} {
+        allow get: if signedIn() && request.auth.uid == uid
+          && visible(get(/databases/$(database)/documents/stories/$(postId)).data.userId);
+        allow list, write: if false;
+      }
+    }
+    match /accounts/{uid}/blocks/{other} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow list, write: if false;
+    }
+    match /maintenanceJobs/{jobId} {
+      // Suspension does not remove access to the owner's data-request status.
+      allow read: if signedIn() && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+    // All mutations and paged reads are authorized by trusted callable services.
+    // Legacy users/posts are deliberately inaccessible to this v2 client.
+    match /{document=**} { allow read, write: if false; }
+  }
+}

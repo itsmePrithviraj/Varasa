@@ -1,0 +1,444 @@
+[
+  {
+    "source": "/Users/prithvirajgokule/Development/Project/varasa",
+    "dart_files": 22,
+    "files": [
+      {
+        "path": "lib/data/cultural_data.dart",
+        "sha256": "c390d216b80175e0c4abfa12549a2adb3ea203cb36d71a663076cbe63c509416"
+      },
+      {
+        "path": "lib/firebase_options.dart",
+        "sha256": "8558b2f9c725a7e33c3cd50660c1efba864d40a0e3b736789c075571c33e5992"
+      },
+      {
+        "path": "lib/main.dart",
+        "sha256": "bf171d3c3cc6568040175bca2bd42f7d3fe5b5f675bf528c4d216929f19d545d"
+      },
+      {
+        "path": "lib/models/user_model.dart",
+        "sha256": "f17b67d65d7ba0c7122b9ffbf4d48dc8f3acffe9384fcf61f8dcd2b162acffcf"
+      },
+      {
+        "path": "lib/pages/info_page.dart",
+        "sha256": "6b56e70f7f128517f15987bdebbead3259f84d56d62386a3f0ed563bca66812c"
+      },
+      {
+        "path": "lib/screens/category_details.dart",
+        "sha256": "54abf35e40c19b76e852a35bc1341e9245f39c0352c96124e41faf5c84c2a4c1"
+      },
+      {
+        "path": "lib/screens/custom_navbar.dart",
+        "sha256": "451d920fda82bb588b211aee39a06b542071f53064deeb33e19060465b9463bd"
+      },
+      {
+        "path": "lib/screens/document.dart",
+        "sha256": "33920be76faca956c933e22a30c781f3fb0f5ccb3eb1713b5043160d18201b0d"
+      },
+      {
+        "path": "lib/screens/forgotten_gems.dart",
+        "sha256": "1b8f1db2f9cbd650feaed21b2a0cc7078467540bee0efd20c8ae695dd75385dd"
+      },
+      {
+        "path": "lib/screens/home_page.dart",
+        "sha256": "325fe256c705c76798883b930bb8ad670d16ec6e6b17e21545ec4c53861c8050"
+      },
+      {
+        "path": "lib/screens/location_picker_page.dart",
+        "sha256": "7badd4eafdeeedddf44278210115085a4c96e98b5ec9e41ff6ca02ee855e5b1f"
+      },
+      {
+        "path": "lib/screens/login_page.dart",
+        "sha256": "3ba77bc7496ec2161e8ae0342eca814dc2469a1f95f1eb1be77776f8f97a61b9"
+      },
+      {
+        "path": "lib/screens/map_page.dart",
+        "sha256": "10da5f618e4581c15ed0647ba0e38c0a150260b604fa4e7008a0ba064c95e75d"
+      },
+      {
+        "path": "lib/screens/media_upload_dialog.dart",
+        "sha256": "2dcec91dc4565608b036518c569c1030e310b30cde759eff0f46a302c1d7a52e"
+      },
+      {
+        "path": "lib/screens/posts.dart",
+        "sha256": "b09925d3226ba340e6b6eafb386a4f2fe7d8a2c52332f4b041e1ec75ad1b79a0"
+      },
+      {
+        "path": "lib/screens/profile_page.dart",
+        "sha256": "8ce6b4ee90391128806323f86b94e602a15b078c22bff4d1f8e0e8f1b520584e"
+      },
+      {
+        "path": "lib/screens/signup_page.dart",
+        "sha256": "e1d4c538f17fe792183314c94714434b4afda81f3cc06b0129e0fc9232a104c0"
+      },
+      {
+        "path": "lib/screens/upload_post_page.dart",
+        "sha256": "21835edd71f8da17cc6a8256af3b99e8f65b77b1787eb18b106dd8040e67645b"
+      },
+      {
+        "path": "lib/services/auth_service.dart",
+        "sha256": "f9ec463428decd87513016bb1953f1ad5800c2e1e843c10ff8c892f4004ddd72"
+      },
+      {
+        "path": "lib/services/cloudinary_service.dart",
+        "sha256": "c11d6d8bb7ee3add048803d8a190fb25f78fa0559370ac2f06ff2f97bb080f40"
+      },
+      {
+        "path": "lib/services/storage_service.dart",
+        "sha256": "69ab3c3fdf7d69149e141c9d080d357a1f42c2c568a3e79449ebac4020e247a0"
+      },
+      {
+        "path": "lib/services/user_service.dart",
+        "sha256": "80c56e2f87294a52e7b6530360538117ae8de9dee6738dde853d3aefaa32076b"
+      }
+    ]
+  },
+  {
+    "source": "/Users/prithvirajgokule/Development/Project/varasa_app",
+    "dart_files": 24,
+    "files": [
+      {
+        "path": "lib/data/cultural_data.dart",
+        "sha256": "61a606f5636f2da7a39fe3a8a0bd0991499a880d8cd42974ab0ca04c65267484"
+      },
+      {
+        "path": "lib/firebase_options.dart",
+        "sha256": "8558b2f9c725a7e33c3cd50660c1efba864d40a0e3b736789c075571c33e5992"
+      },
+      {
+        "path": "lib/main.dart",
+        "sha256": "033621f474e1522a2fef5c6931c7b1d3a4d8b5859052799fe665544838a5f694"
+      },
+      {
+        "path": "lib/models/user_model.dart",
+        "sha256": "f17b67d65d7ba0c7122b9ffbf4d48dc8f3acffe9384fcf61f8dcd2b162acffcf"
+      },
+      {
+        "path": "lib/pages/info_page.dart",
+        "sha256": "75feff4e87467be6faf4c9627e8794bcff2f6afac22aa33b7b2d6146768f7dad"
+      },
+      {
+        "path": "lib/screens/category_details.dart",
+        "sha256": "c40b1dd226c0915c20f14871fbe20803b723917e6a22798a675b885ed217de61"
+      },
+      {
+        "path": "lib/screens/custom_navbar.dart",
+        "sha256": "b3580bc373aab59e29f64e0afac1ee676450098adda16ab7b887166ea5a2aba1"
+      },
+      {
+        "path": "lib/screens/document.dart",
+        "sha256": "74e6a11d8c272faf99c04fb81682e3fdadc2259b3d1c8b11e1d3ff3ada3b78e3"
+      },
+      {
+        "path": "lib/screens/document_upload_dialog.dart",
+        "sha256": "d1d120416fb7746840651b09f61852e2f73a6c8d5c2ab1f9418621c3b443c9ae"
+      },
+      {
+        "path": "lib/screens/forgotten_gems.dart",
+        "sha256": "0a14099f6b76300ad0d4438fefa737b6c410411c2d493596ebee604a74ff8a87"
+      },
+      {
+        "path": "lib/screens/home_page.dart",
+        "sha256": "b56c420bfafae5e87d6a5e908686e15c41829b493eeac753e08fc0fdce5b095b"
+      },
+      {
+        "path": "lib/screens/location_picker_page.dart",
+        "sha256": "10cf56637eeb53b633fbe52d70c551d37319827bae98bf58e593e3bef7ece1db"
+      },
+      {
+        "path": "lib/screens/login_page.dart",
+        "sha256": "fd8fb74598176c44e9a775e2445b7b467616f9ff33126c07e328e2c1963977be"
+      },
+      {
+        "path": "lib/screens/map_page.dart",
+        "sha256": "d9403b113758f12ec9ec066f248a861e3f8881c37d6d2bd29a41b9e0c7119b4e"
+      },
+      {
+        "path": "lib/screens/media_upload_dialog.dart",
+        "sha256": "87f27766bf73e90ff04f30eb90331e02e90121deb22d01e472efef9413d4045c"
+      },
+      {
+        "path": "lib/screens/posts.dart",
+        "sha256": "7ac2355644a4226de33ffcdf7106c49f84c6622a2db817630589d07174b0c2bd"
+      },
+      {
+        "path": "lib/screens/profile_page.dart",
+        "sha256": "ed88544bd8c7912f427871698d743c8917d92646367b8519fed5705755765001"
+      },
+      {
+        "path": "lib/screens/signup_page.dart",
+        "sha256": "caa046d0e4ec2c82d37a9379ee787c97338fdcc6ef6731761a16cf1ef3f87547"
+      },
+      {
+        "path": "lib/screens/upload_post_page.dart",
+        "sha256": "21835edd71f8da17cc6a8256af3b99e8f65b77b1787eb18b106dd8040e67645b"
+      },
+      {
+        "path": "lib/services/auth_service.dart",
+        "sha256": "2d3246c654c7b6bce403bf05a9452367e4493bb28b102c9024c83d5ce1661993"
+      },
+      {
+        "path": "lib/services/cloudinary_service.dart",
+        "sha256": "b91370408bc172ff840fb3d70c522577752a98ae277b2f249df70d167a59c111"
+      },
+      {
+        "path": "lib/services/storage_service.dart",
+        "sha256": "69ab3c3fdf7d69149e141c9d080d357a1f42c2c568a3e79449ebac4020e247a0"
+      },
+      {
+        "path": "lib/services/user_service.dart",
+        "sha256": "123d9f9c2b6e6723b352ec21f795920f12624f645a088495c065c8fa406e74cb"
+      },
+      {
+        "path": "lib/widgets/user_tile.dart",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "source": "/Users/prithvirajgokule/Development/Project/varasa_old",
+    "dart_files": 28,
+    "files": [
+      {
+        "path": "lib/data/cultural_data.dart",
+        "sha256": "68aed30be40ce9d2ccb6aa3ff36d245d7932999c5fc32d8ec7412c7df1a4b1d6"
+      },
+      {
+        "path": "lib/firebase_options.dart",
+        "sha256": "8558b2f9c725a7e33c3cd50660c1efba864d40a0e3b736789c075571c33e5992"
+      },
+      {
+        "path": "lib/main.dart",
+        "sha256": "fc878d0ea72d5eaeb738615cc88db2b45760904b37aed7eefe50bd9b615aafd1"
+      },
+      {
+        "path": "lib/models/user_model.dart",
+        "sha256": "4cf54332c9cd9cd413287de2755316168b5e98b23a2174831ba2e02485596885"
+      },
+      {
+        "path": "lib/pages/info_page.dart",
+        "sha256": "a21f150d495753e118c8a35c2e9a1176be2bc7a0d3f0acfdb6f9123adadc2be8"
+      },
+      {
+        "path": "lib/screens/category_details.dart",
+        "sha256": "73e4fbb147b9501ff7b868e4fb84b3cc896c98b33ae66a05f2a99e21bd6b2d7f"
+      },
+      {
+        "path": "lib/screens/custom_navbar.dart",
+        "sha256": "7d667ca0a301bba12b34dd1e44359bef8ff1c010c068f624dd2e6866548cc24f"
+      },
+      {
+        "path": "lib/screens/document.dart",
+        "sha256": "8da95f6b029288c768ba3de951d42d9aaab75f8fb18e592dc19d683685011ab1"
+      },
+      {
+        "path": "lib/screens/document_upload_dialog.dart",
+        "sha256": "d1d120416fb7746840651b09f61852e2f73a6c8d5c2ab1f9418621c3b443c9ae"
+      },
+      {
+        "path": "lib/screens/forgotten_gems.dart",
+        "sha256": "ff29e055daefbd36a6b3b3103bf4f0b4db5118a738b97f565e7a107283b836dc"
+      },
+      {
+        "path": "lib/screens/home_page.dart",
+        "sha256": "517f16acb6d0bf48606c3e380e7c65c71eb1776e1c53780d2d64fc5d8fca01cf"
+      },
+      {
+        "path": "lib/screens/location_picker_page.dart",
+        "sha256": "87162d2092657e58401baa63e13f5583302edad6e0770efa880d457bde343bdd"
+      },
+      {
+        "path": "lib/screens/login_page.dart",
+        "sha256": "7176fc5944a288d7092aedf76a48705d89164bad9218b4d2cb78552d06ad7e50"
+      },
+      {
+        "path": "lib/screens/map_page.dart",
+        "sha256": "e66c3cee8e203de7b499f2d27b2eacc1327ae3a71cf13f52d2151adb8102a853"
+      },
+      {
+        "path": "lib/screens/media_upload_dialog.dart",
+        "sha256": "4ceb7e815e3f059d2028957e6f575b7a02346473ca7cbc36291ae19e85792d94"
+      },
+      {
+        "path": "lib/screens/other_profile_page.dart",
+        "sha256": "ffaf1e76f14419d7618bd85062840d46c2c5c45d02da7cd852f3dc34d1a6263d"
+      },
+      {
+        "path": "lib/screens/post_view_page.dart",
+        "sha256": "7dd45d9bdc2bd7f9057ac5fed08442ee78fbedaad2d249ce2f6a43d1e866ff0e"
+      },
+      {
+        "path": "lib/screens/posts.dart",
+        "sha256": "e0781de4f45911179ea422316e619c8477fd82ee5ee378395392797f8e7a7167"
+      },
+      {
+        "path": "lib/screens/profile_page.dart",
+        "sha256": "2f58b3dd3679bfcb4393294a729ffd95f22e7ff8501f379627ac475f966989da"
+      },
+      {
+        "path": "lib/screens/search_page.dart",
+        "sha256": "db94160fead17bc66584fdd0d594bc8012c018c5a498da672be36d10a3cb3cdc"
+      },
+      {
+        "path": "lib/screens/signup_page.dart",
+        "sha256": "caa046d0e4ec2c82d37a9379ee787c97338fdcc6ef6731761a16cf1ef3f87547"
+      },
+      {
+        "path": "lib/screens/upload_post_page.dart",
+        "sha256": "21835edd71f8da17cc6a8256af3b99e8f65b77b1787eb18b106dd8040e67645b"
+      },
+      {
+        "path": "lib/services/auth_service.dart",
+        "sha256": "2d3246c654c7b6bce403bf05a9452367e4493bb28b102c9024c83d5ce1661993"
+      },
+      {
+        "path": "lib/services/cloudinary_service.dart",
+        "sha256": "a292b17295022d745bbf59a9c9071de260d0f6e84cb24a34c0137ca04873e18e"
+      },
+      {
+        "path": "lib/services/post_service.dart",
+        "sha256": "a82ed43818a971f9d3e4c5c32e4d8a293a1212982189d5fa3dca96ded5b98894"
+      },
+      {
+        "path": "lib/services/storage_service.dart",
+        "sha256": "69ab3c3fdf7d69149e141c9d080d357a1f42c2c568a3e79449ebac4020e247a0"
+      },
+      {
+        "path": "lib/services/user_service.dart",
+        "sha256": "46d7c4f72e5c2041dfb2a1a314dd7c03f43c66e4a1b3296db9842a8678d106bd"
+      },
+      {
+        "path": "lib/widgets/user_tile.dart",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "source": "/Users/prithvirajgokule/Development/Project/varsa",
+    "dart_files": 12,
+    "files": [
+      {
+        "path": "lib/data/cultural_data.dart",
+        "sha256": "57d5d34a9d2487f3e224560e3470534e336edbd654a87c29a50a1cba91e6f778"
+      },
+      {
+        "path": "lib/main.dart",
+        "sha256": "6643b6ff4a96315d5b82b759f5d6680c97cc8469f35b8d69e4a498bbb3496c52"
+      },
+      {
+        "path": "lib/pages/category_details.dart",
+        "sha256": "16c865dbf76fd4bae0dc60f8986280e033b2953b3ee6523c4675c59feb7449bf"
+      },
+      {
+        "path": "lib/pages/document.dart",
+        "sha256": "0c0bafab262a36c1ad4efd053e4f8d14a4ee8be6346b02f7fe2727f5d8b119b7"
+      },
+      {
+        "path": "lib/pages/home_page.dart",
+        "sha256": "78c04807fb1d47504d798c4c7bf439a0c7de03660ee766dead92c02feaf2ae94"
+      },
+      {
+        "path": "lib/pages/info_page.dart",
+        "sha256": "9c9ffa83096b5b6d8f1cf20d3379800fad790482ecc1d4c415590ba563debb77"
+      },
+      {
+        "path": "lib/pages/login_page.dart",
+        "sha256": "1209ef8ba97fbff9572301c88c59212c883762ed22d3e68d308bf6c83c646124"
+      },
+      {
+        "path": "lib/pages/map_page.dart",
+        "sha256": "68471e7cda5d189ba1bc1ceb56772b1a4c35e1af55f87952a7e4e9cd11bb8c20"
+      },
+      {
+        "path": "lib/test.dart",
+        "sha256": "70f6ed65087892ad8a10337d8a9cc54b3d95fe24292c20f28a7e94ec476389b1"
+      },
+      {
+        "path": "lib/widgets/appbar.dart",
+        "sha256": "2ea893373b3c39330f48838411829b1ab45876f002b93563322d320c4e2b05a7"
+      },
+      {
+        "path": "lib/widgets/navbar.dart",
+        "sha256": "921750229d9c84a729270feb08fa5eeba7dc2be1daa52063228ae05a18df5ed4"
+      },
+      {
+        "path": "lib/widgets/posts.dart",
+        "sha256": "26dd20d919ed82390a49f6de237ac3c3e8b1614770eb9167b510460935bdafcd"
+      }
+    ]
+  },
+  {
+    "source": "/Users/prithvirajgokule/Development/Projects/Varasa/varasaapp",
+    "dart_files": 17,
+    "files": [
+      {
+        "path": "lib/firebase_options.dart",
+        "sha256": "8558b2f9c725a7e33c3cd50660c1efba864d40a0e3b736789c075571c33e5992"
+      },
+      {
+        "path": "lib/main.dart",
+        "sha256": "7d95e19a2542e909289ce0314de30b4d0fa7af928f8b1e6b5115abde7625af00"
+      },
+      {
+        "path": "lib/screens/category_details.dart",
+        "sha256": "979c510cbc2e3470e685630f64a8ffb9d8918d7b3dd258f032c25eb337b25653"
+      },
+      {
+        "path": "lib/screens/custom_navbar.dart",
+        "sha256": "d08c3afd315be154bc9be4375888d69e448dc351020c638f833b64ac1ef268f0"
+      },
+      {
+        "path": "lib/screens/document.dart",
+        "sha256": "84a14b960042ba726b4861ec8420f0c73637f7151b938715571fce2a5542de00"
+      },
+      {
+        "path": "lib/screens/document_upload_dialog.dart",
+        "sha256": "c8a8b61f4f9a1c916d976a84bd4d70db12a4aa836a7c01b30d2cc03392f03b15"
+      },
+      {
+        "path": "lib/screens/forgotten_gems.dart",
+        "sha256": "b26bc325217b94a99a03ca88636ecc7ec37c0773ff37996c49141db7725e21d1"
+      },
+      {
+        "path": "lib/screens/home_page.dart",
+        "sha256": "8ccb126a1131035a235ca06467d6453de9989a77859f325851682ff5217f53b1"
+      },
+      {
+        "path": "lib/screens/location_picker_page.dart",
+        "sha256": "00d19de462d44faf9c8190aaa7a1642bb9648137ab9c64fbef34a7b3d46b2805"
+      },
+      {
+        "path": "lib/screens/login_page.dart",
+        "sha256": "836512c7790c23e38d7f70382b5fb562a68676375e5404e3089ce06708e923de"
+      },
+      {
+        "path": "lib/screens/map_page.dart",
+        "sha256": "fd0856fa861373906648ccc4afb4c9f443b3122cb2fb9a470dd773b7c21a01a2"
+      },
+      {
+        "path": "lib/screens/media_upload_dialog.dart",
+        "sha256": "8ddbd55ca74903223533477085be8e933c7a78050f1c60c138299adea86cf322"
+      },
+      {
+        "path": "lib/screens/posts.dart",
+        "sha256": "fcd6a2e6a29792638bf7b357b7cb222721e9c7f3beaa3ddd4276424782673ecd"
+      },
+      {
+        "path": "lib/screens/profile_page.dart",
+        "sha256": "72392765e5f992de5f9c4de00534fac70426071a338c7151f42ba8a8959075aa"
+      },
+      {
+        "path": "lib/screens/signup_page.dart",
+        "sha256": "abf9d87eaf8c02f1a0c1f9416a96bb8f35e93b93e04634cfc8d4aab839a37747"
+      },
+      {
+        "path": "lib/screens/upload_post_page.dart",
+        "sha256": "4375afd71453bc29cb52d4eb3232ecf906376aa870d7ce95af4f5ab63ddcfd0a"
+      },
+      {
+        "path": "lib/services/auth_service.dart",
+        "sha256": "9c19b854a6156c89d6e96b1195d5cb1219e4db62bdef843b219c589064258cad"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() { return request.auth != null; }
+    function active(uid) {
+      return firestore.exists(/databases/(default)/documents/profiles/$(uid))
+        && firestore.get(/databases/(default)/documents/profiles/$(uid)).data.suspended == false
+        && firestore.exists(/databases/(default)/documents/accounts/$(uid))
+        && firestore.get(/databases/(default)/documents/accounts/$(uid)).data.deleting == false;
+    }
+    function visible(uid) {
+      return signedIn() && active(request.auth.uid) && active(uid)
+        && (request.auth.uid == uid ||
+          (!firestore.exists(/databases/(default)/documents/accounts/$(request.auth.uid)/blocks/$(uid))
+          && !firestore.exists(/databases/(default)/documents/accounts/$(uid)/blocks/$(request.auth.uid))));
+    }
+    function owner(uid) { return signedIn() && request.auth.uid == uid && active(uid); }
+    match /posts/{uid}/{postId}/attachment {
+      allow read: if visible(uid) && (request.auth.uid == uid ||
+        (firestore.exists(/databases/(default)/documents/stories/$(postId))
+        && firestore.get(/databases/(default)/documents/stories/$(postId)).data.userId == uid
+        && firestore.get(/databases/(default)/documents/stories/$(postId)).data.deleted == false));
+      allow create: if resource == null && owner(uid) && request.resource.size > 0
+        && request.resource.size <= 10 * 1024 * 1024
+        && request.resource.contentType.matches('image/(jpeg|png|webp)|application/pdf');
+      allow update, delete: if false;
+    }
+    match /avatars/{uid}/{version} {
+      allow read: if visible(uid);
+      allow create: if resource == null && owner(uid) && request.resource.size > 0
+        && request.resource.size <= 3 * 1024 * 1024
+        && request.resource.contentType.matches('image/(jpeg|png|webp)');
+      allow update, delete: if false;
+    }
+    match /exports/{uid}/{jobId}/{file} {
+      allow read: if signedIn() && request.auth.uid == uid
+        && firestore.get(/databases/(default)/documents/accounts/$(uid)).data.deleting == false;
+      allow write: if false;
+    }
+    match /{path=**} { allow read, write: if false; }
+  }
+}

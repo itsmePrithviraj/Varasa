@@ -1,0 +1,3 @@
+// Copy to Local.xcconfig only when enabling Google sign-in on iOS.
+// Use REVERSED_CLIENT_ID from the iOS Firebase application settings.
+GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.REPLACE_ME

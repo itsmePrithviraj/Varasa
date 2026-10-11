@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T04:25:11.943947+00:00",
+  "title": "Design System: Varasa",
+  "extensions": {
+    "verification": {
+      "basis": "Manual inspection of current Flutter source, original supplied references and Flutter renderer captures in .impeccable/review.",
+      "renderedLayout": "Selected phone home, games, Paintings category, profile and demo login captures inspected. Wide home captured by restoration test. No whole-surface approval.",
+      "accessibility": "UNVERIFIED as a whole; source semantics and narrow large-text test coverage are not a full accessibility audit.",
+      "executedValidation": "Coordinating pass reports clean analysis, 9 Flutter tests, 10 backend tests, web JavaScript build and Android debug APK build passing. See docs/VALIDATION.md.",
+      "samples": "Illustrative self-contained HTML/CSS translations only. Raster silhouettes, fonts and Material state details are not faithfully rendered by these samples. Flutter source and original assets are authoritative.",
+      "tonalRamps": "Existing synthesized preview ramps retained as display metadata only, not application tokens. Newly extracted colors have no invented production ramps.",
+      "logicalPixels": "DESIGN.md px values map to authored Flutter logical pixels before scaling.",
+      "runtimeBehavior": "Physical-device runtime, connected Firebase auth/OAuth, live map tiles and Unity integration are unverified; Unity remains deferred.",
+      "detector": "No Flutter design detector; manual extraction.",
+      "references": ".impeccable/references: original-home.jpeg, original-login.jpeg, original-overview.png, original-games.png, original-heritage.png.",
+      "captureMethod": "Flutter test renderer; capture path loads real fonts and precaches image assets. Not physical-native screenshots."
+    },
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.08976 43.75)",
+          "oklch(26.43% 0.08976 43.75)",
+          "oklch(37.86% 0.08976 43.75)",
+          "oklch(49.29% 0.08976 43.75)",
+          "oklch(60.71% 0.08976 43.75)",
+          "oklch(72.14% 0.08976 43.75)",
+          "oklch(83.57% 0.08976 43.75)",
+          "oklch(95.00% 0.08976 43.75)"
+        ]
+      },
+      "terracotta": {
+        "role": "secondary",
+        "displayName": "Terracotta",
+        "tonalRamp": [
+          "oklch(15.00% 0.11772 25.36)",
+          "oklch(26.43% 0.11772 25.36)",
+          "oklch(37.86% 0.11772 25.36)",
+          "oklch(49.29% 0.11772 25.36)",
+          "oklch(60.71% 0.11772 25.36)",
+          "oklch(72.14% 0.11772 25.36)",
+          "oklch(83.57% 0.11772 25.36)",
+          "oklch(95.00% 0.11772 25.36)"
+        ]
+      },
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Parchment",
+        "tonalRamp": [
+          "oklch(15.00% 0.03117 70.53)",
+          "oklch(26.43% 0.03117 70.53)",
+          "oklch(37.86% 0.03117 70.53)",
+          "oklch(49.29% 0.03117 70.53)",
+          "oklch(60.71% 0.03117 70.53)",
+          "oklch(72.14% 0.03117 70.53)",
+          "oklch(83.57% 0.03117 70.53)",
+          "oklch(95.00% 0.03117 70.53)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00734 80.72)",
+          "oklch(26.43% 0.00734 80.72)",
+          "oklch(37.86% 0.00734 80.72)",
+          "oklch(49.29% 0.00734 80.72)",
+          "oklch(60.71% 0.00734 80.72)",
+          "oklch(72.14% 0.00734 80.72)",
+          "oklch(83.57% 0.00734 80.72)",
+          "oklch(95.00% 0.00734 80.72)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error red",
+        "tonalRamp": [
+          "oklch(15.00% 0.17216 26.53)",
+          "oklch(26.43% 0.17216 26.53)",
+          "oklch(37.86% 0.17216 26.53)",
+          "oklch(49.29% 0.17216 26.53)",
+          "oklch(60.71% 0.17216 26.53)",
+          "oklch(72.14% 0.17216 26.53)",
+          "oklch(83.57% 0.17216 26.53)",
+          "oklch(95.00% 0.17216 26.53)"
+        ]
+      },
+      "story-cream": {
+        "role": "neutral",
+        "displayName": "Story cream"
+      },
+      "story-ink": {
+        "role": "neutral",
+        "displayName": "Story ink"
+      },
+      "muted-clay": {
+        "role": "primary",
+        "displayName": "Muted clay"
+      },
+      "category-clay": {
+        "role": "secondary",
+        "displayName": "Category clay"
+      },
+      "auth-red": {
+        "role": "secondary",
+        "displayName": "Authentication red"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Heritage display",
+        "purpose": "CinzelDecorative Games heading; explicit 1.1 line height."
+      },
+      "headline": {
+        "displayName": "Decorative headline",
+        "purpose": "CinzelDecorative theme detail headings."
+      },
+      "game-title": {
+        "displayName": "Game title",
+        "purpose": "CormorantGaramond first game title."
+      },
+      "category-title": {
+        "displayName": "Category title",
+        "purpose": "CormorantGaramond category banners."
+      },
+      "story-author": {
+        "displayName": "Story author",
+        "purpose": "Itim author name."
+      },
+      "story-body": {
+        "displayName": "Story caption",
+        "purpose": "Itim caption above media."
+      },
+      "supporting": {
+        "displayName": "Handwritten supporting copy",
+        "purpose": "Itim profile biography and game copy; local game line height differs."
+      },
+      "body-large": {
+        "displayName": "Material reading text",
+        "purpose": "Inherited platform/Material family."
+      },
+      "body-medium": {
+        "displayName": "Material supporting text",
+        "purpose": "Inherited platform/Material family."
+      }
+    },
+    "shadows": [
+      {
+        "name": "map-controls",
+        "value": "Material elevation 2",
+        "purpose": "Floating parchment control row."
+      },
+      {
+        "name": "map-preview",
+        "value": "Material elevation 5",
+        "purpose": "Bottom parchment status/selected-place preview."
+      }
+    ],
+    "motion": [
+      {
+        "name": "carousel-navigation",
+        "duration": "250ms",
+        "easing": "Curves.easeOut",
+        "purpose": "Previous/next game arrows."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "navigation-rail",
+        "value": "width >= 900 && height >= 640 * textScale",
+        "purpose": "Available LayoutBuilder dimensions. textScale = MediaQuery.textScalerOf(context).scale(16) / 16. Otherwise original illustrated curved mobile navigation."
+      }
+    ],
+    "frameworkDefaults": "Material 3 owns unspecified button/menu states, generated palette roles and utility controls. Restored mobile header/navigation and artwork silhouettes are custom asset-based components; they are not Material navigation defaults.",
+    "componentPatterns": [
+      {
+        "name": "Shaped chrome",
+        "source": "apps/varasa/lib/core/widgets/heritage_chrome.dart",
+        "description": "appbarbg.png home header at 150 high; gemsappbarbg.png secondary header at 88; navbar_bg.png mobile bar at 82. Full PNG contours use BoxFit.fill. Original logo and icon assets; tooltip labels on mobile, visible rail labels. Floating map access belongs to Community."
+      },
+      {
+        "name": "Cream story",
+        "source": "apps/varasa/lib/features/feed/post_card.dart",
+        "description": "Caption precedes optional 1.65-aspect media. Itim author 18 / caption 17; cream 22-radius card, illustrated actions and optional location/attachment. Live repository states remain."
+      },
+      {
+        "name": "Arch carousel",
+        "source": "apps/varasa/lib/features/games/games_page.dart",
+        "description": "challasbg.png/gamebg1.png retained intact. Viewport fraction .84, responsive height and text-scale extension. Coming soon when Unity unavailable, information action and swipe/arrows retained."
+      },
+      {
+        "name": "Floral auth",
+        "source": "apps/varasa/lib/features/auth/auth_page.dart",
+        "description": "Full assets/images/background.jpg frame, capped 520-width scrolling form, 15% side insets, red 8-radius primary action. Demo credential fields disabled; connected signup/reset/Google controls source-defined but not certified."
+      },
+      {
+        "name": "Ornamental profile",
+        "source": "apps/varasa/lib/features/profile/profile_page.dart",
+        "description": "background2.png and logo_pattern.png retain original composition. Posts above Followers/Following; Posts loaded during incomplete paging. Friends in Community & account. Two-column square contributions. Photo staging preserved."
+      },
+      {
+        "name": "Illustrated collection",
+        "source": "apps/varasa/lib/features/heritage/heritage_page.dart",
+        "description": "Category clay banners with 100-square contained artwork ; 112-high image rows, translucent white overlay, CinzelDecorative titles; original article text retained."
+      },
+      {
+        "name": "Map overlay",
+        "source": "apps/varasa/lib/features/places/places_page.dart",
+        "description": "Parchment controls top 12 / max 600 and bottom selected-pin preview/status max 560. HeritageMap feedbackTop 96 is viewport offset below control overlay, not extra 96 gap. List/map toggle, loaded scope, retry and attribution remain. Live tiles unverified."
+      },
+      {
+        "name": "Paged states",
+        "source": "apps/varasa/lib/core/widgets/paged_list.dart",
+        "description": "Refresh, progress, retry, empty, Load more and end states. Profile header gets loaded count/hasMore/loading. Supersedes obsolete 300-story-window documentation."
+      },
+      {
+        "name": "Local context action",
+        "source": "apps/varasa/lib/app/varasa_shell.dart",
+        "description": "Compact Demo/Local header action opens informational bottom sheet. No full-width development banner in restored shell."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Illustrative Flutter Material translation. Authored minimum size and palette are represented; pill shape, label metrics and web state feedback are approximations, not extracted Flutter defaults.",
+      "html": "<button class=\"ds-primary-button\">Share story</button>",
+      "css": ".ds-primary-button{font:500 14px system-ui,sans-serif;min-height:48px;min-width:48px;padding:14px 24px;border-radius:999px;cursor:pointer;background:#622A0F;color:#FFFFFF;border:1px solid transparent;} .ds-primary-button:hover{box-shadow:inset 0 0 0 100px rgba(98,42,15,.08);} .ds-primary-button:focus-visible{outline:2px solid #622A0F;outline-offset:3px;} .ds-primary-button:active{box-shadow:inset 0 0 0 100px rgba(98,42,15,.14);} .ds-primary-button:disabled{opacity:.45;cursor:default;}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Outlined Button",
+      "kind": "button",
+      "description": "Illustrative Flutter Material translation. Authored minimum size and palette are represented; pill shape, label metrics and web state feedback are approximations, not extracted Flutter defaults.",
+      "html": "<button class=\"ds-outlined-button\">Discover the game’s story</button>",
+      "css": ".ds-outlined-button{font:500 14px system-ui,sans-serif;min-height:48px;min-width:48px;padding:14px 24px;border-radius:999px;cursor:pointer;background:transparent;color:#622A0F;border:1px solid #622A0F;} .ds-outlined-button:hover{box-shadow:inset 0 0 0 100px rgba(98,42,15,.08);} .ds-outlined-button:focus-visible{outline:2px solid #622A0F;outline-offset:3px;} .ds-outlined-button:active{box-shadow:inset 0 0 0 100px rgba(98,42,15,.14);} .ds-outlined-button:disabled{opacity:.45;cursor:default;}"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "description": "Illustrative Flutter Material translation. Authored minimum size and palette are represented; pill shape, label metrics and web state feedback are approximations, not extracted Flutter defaults.",
+      "html": "<button class=\"ds-text-button\">Discuss</button>",
+      "css": ".ds-text-button{font:500 14px system-ui,sans-serif;min-height:48px;min-width:48px;padding:14px 24px;border-radius:999px;cursor:pointer;background:transparent;color:#622A0F;border:1px solid transparent;} .ds-text-button:hover{box-shadow:inset 0 0 0 100px rgba(98,42,15,.08);} .ds-text-button:focus-visible{outline:2px solid #622A0F;outline-offset:3px;} .ds-text-button:active{box-shadow:inset 0 0 0 100px rgba(98,42,15,.14);} .ds-text-button:disabled{opacity:.45;cursor:default;}"
+    },
+    {
+      "name": "Labeled Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Illustrates authored white fill, 12-pixel radius, 16-pixel inset and a visible label. Web border/focus rules approximate framework behavior.",
+      "html": "<label class=\"ds-field\">Tell the story<textarea class=\"ds-field-input\" rows=\"3\" placeholder=\"Share a memory\"></textarea></label>",
+      "css": ".ds-field{display:grid;gap:8px;color:#622A0F;font:14px/1.5 system-ui,sans-serif;} .ds-field-input{background:#FFFFFF;color:#622A0F;border:1px solid #622A0F;border-radius:12px;padding:16px;font:16px/1.5 system-ui,sans-serif;resize:vertical;} .ds-field-input:hover{border-width:2px;padding:15px;} .ds-field-input:focus-visible{outline:2px solid #622A0F;outline-offset:2px;}"
+    },
+    {
+      "name": "Illustrated Mobile Navigation (structural sample)",
+      "kind": "nav",
+      "refersTo": "bottom-navigation",
+      "description": "Browser structure only: inline SVG stand-ins show accessible unlabeled actions and central plus. Original raster icons and navbar_bg.png remain authoritative; this CSS curve is not an asset replacement.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Varasa sections\"><button class=\"ds-nav-item\" aria-label=\"Community\" title=\"Community\" aria-current=\"page\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M3 11 12 3l9 8v10h-6v-7H9v7H3z\"/></svg></button><button class=\"ds-nav-item\" aria-label=\"Games\" title=\"Games\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><circle cx=\"8\" cy=\"8\" r=\"1\"/><circle cx=\"16\" cy=\"16\" r=\"1\"/></svg></button><button class=\"ds-nav-item ds-nav-plus\" aria-label=\"Contribute\" title=\"Contribute\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M12 3v18M3 12h18\"/></svg></button><button class=\"ds-nav-item\" aria-label=\"Heritage\" title=\"Heritage\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M5 3h14v18H5zM8 7h8M8 11h8M8 15h5\"/></svg></button><button class=\"ds-nav-item\" aria-label=\"Profile\" title=\"Profile\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4 22v-3a8 8 0 0 1 16 0v3\"/></svg></button></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-around;min-height:82px;padding:0 16px;background:#FFEEDB;border-radius:56px 56px 0 0}.ds-nav-item{display:grid;place-items:center;width:48px;height:48px;border:0;background:transparent;color:#D1A487;cursor:pointer}.ds-nav-item[aria-current]{color:#622A0F}.ds-nav-plus{width:50px;height:50px;border-radius:50%;background:#D1A487;color:#fff}.ds-nav-item:hover{opacity:.8}.ds-nav-item:focus-visible{outline:2px solid #622A0F;outline-offset:2px}.ds-nav-item:active{opacity:.6}"
+    },
+    {
+      "name": "Story Composition",
+      "kind": "card",
+      "description": "Illustrates restored cream caption-first card. Placeholder media and textual actions are browser-only; production uses original illustrated icons and supplied imagery.",
+      "html": "<article class=\"ds-story\"><button class=\"ds-story-author\">@community</button><p class=\"ds-story-caption\">A memory carried forward, one story at a time.</p><div class=\"ds-story-media\">Original Varasa artwork</div><div class=\"ds-story-actions\"><button>0 Like</button><button>Discuss</button><button>Share</button></div></article>",
+      "css": ".ds-story{max-width:720px;margin-bottom:16px;padding:12px 16px 14px;background:#FFF9F2;border-radius:22px;color:#33251E;font:17px/1.45 Itim,cursive}.ds-story-author{font-size:18px}.ds-story-media{display:grid;place-items:center;aspect-ratio:1.65;background:#FFEEDB;border-radius:16px;margin-top:12px;font:14px system-ui,sans-serif}.ds-story-actions{display:flex;gap:8px;margin-top:8px}.ds-story button{min-height:48px;padding:12px;background:transparent;border:0;color:#622A0F;font:inherit;cursor:pointer}.ds-story button:hover{background:rgba(98,42,15,.08)}.ds-story button:focus-visible{outline:2px solid #622A0F;outline-offset:2px}.ds-story button:active{background:rgba(98,42,15,.14)}",
+      "refersTo": "story-card"
+    },
+    {
+      "name": "Authentication Action",
+      "kind": "button",
+      "refersTo": "button-auth",
+      "description": "Auth-specific red action. Floral frame is intentionally not recreated in this small browser primitive. Material typography and state overlays approximated.",
+      "html": "<button class=\"ds-auth\">ENTER LOCAL DEMO</button>",
+      "css": ".ds-auth{min-height:48px;padding:14px 24px;border:0;border-radius:8px;background:#BD3032;color:#fff;font:500 14px system-ui,sans-serif;cursor:pointer}.ds-auth:hover{filter:brightness(.96)}.ds-auth:focus-visible{outline:2px solid #622A0F;outline-offset:3px}.ds-auth:active{filter:brightness(.9)}.ds-auth:disabled{opacity:.45;cursor:default}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Living traditions",
+    "overview": "Varasa restores the original supplied interface: shaped parchment headers, curved illustrated navigation, cream social stories, floral login, arch game cards and an ornamental profile. The five images in `.impeccable/references/` and the original project assets govern this identity. The owner rejected the intervening generic composition; keeping only its palette and logo is insufficient.\n\nArtwork defines the structure as well as the decoration. Preserve its silhouettes and pair decorative cultural headings with the warm handwritten voice of social stories. Backend and repository improvements remain behind this interface. This document records the current restoration, not whole-surface approval or a new visual direction.",
+    "keyCharacteristics": [
+      "Original shaped PNG artwork retained as structural chrome.",
+      "White canvas, cream stories, parchment framing and brown ink.",
+      "CinzelDecorative headings, CormorantGaramond titles and Itim social copy.",
+      "Curved illustrated mobile navigation with a prominent plus and avatar.",
+      "Honest demo, loading, error and unavailable-game states."
+    ],
+    "rules": [
+      {
+        "name": "The Original Artwork Rule",
+        "body": "Preserve the supplied asset colors and silhouettes; do not replace them with generic rectangles or a newly invented ornament system.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Voice Rule",
+        "body": "Preserve Itim on social copy while leaving forms and utility controls readable in their existing Material text styles.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do preserve the original shaped assets and supplied screenshot composition.",
+      "Do keep caption-first cream stories and the illustrated mobile navigation.",
+      "Do preserve Posts above Followers / Following and label incomplete counts as loaded.",
+      "Do keep Friends and account tools in Community & account.",
+      "Do retain functional loading, error, demo and unavailable-game states.",
+      "Do keep wide and large-text adaptations faithful to the same artwork and hierarchy."
+    ],
+    "donts": [
+      "Don't reintroduce the rejected generic cards, rectangular headers or labeled mobile bar.",
+      "Don't crop away the game arches, floral frame or ornamental profile shape.",
+      "Don't replace original article text or claim that Unity is playable.",
+      "Don't treat demo captures, successful builds or browser samples as connected/native runtime verification.",
+      "Don't describe this document as whole-surface visual or accessibility approval."
+    ]
+  }
+}

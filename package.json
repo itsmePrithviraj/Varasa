@@ -1,0 +1,14 @@
+{
+  "name": "varasa-workspace",
+  "private": true,
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "emulators": "firebase emulators:start --project demo-varasa --only auth,firestore,storage,functions",
+    "test:backend": "firebase emulators:exec --project demo-varasa --only auth,firestore,storage,functions \"node --test functions/test/backend.test.js\""
+  },
+  "devDependencies": {
+    "firebase-tools": "15.33.0"
+  }
+}
