@@ -141,3 +141,5 @@ Owner supplied original screenshots and rejected the generic layout of the rebui
 - Installed GitHub CLI; started browser device authentication. Existing Git author configuration retained.
 - Reviewed 247 candidate files (~12.29 MiB before these notes): no files over 50 MiB, no historical-folder candidates and no matches for common credential/private-key patterns. Build outputs, dependency caches, local config/signing files and APKs are ignored. Also excluded IDE .iml files and redundant source font ZIP.
 - Updated collaboration guide and CI triggers. Flutter checks now run on macOS/Windows; isolated Node22/Java21 backend checks run on Ubuntu. Hosted results are pending publication.
+
+- Created initial local commit `803a23a` on `main`: 247 files, restored app/backend/assets/docs and CI. Staged whitespace check passed. No historical source, APK, local SDK/config, key or dependency cache was committed. GitHub publication is waiting for owner device authentication.
